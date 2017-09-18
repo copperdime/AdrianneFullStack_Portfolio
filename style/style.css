@@ -9,6 +9,7 @@ body{   /*background-image: url("./image/background.png");*/
         margin: 0;
         min-width: 980px;
         padding: 0;
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
 }
 
 p{
@@ -16,7 +17,7 @@ p{
 }
 
 p, ul{
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
         font-size-adjust:0.488;
         font-weight:200;
         font-style:normal;
@@ -24,11 +25,11 @@ p, ul{
 
 img{
         border: 0;
-        width: 100%;
+       /* width: 100%;*/
 }
 
 h1, #pixels{
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
         font-size-adjust:0.40;
         font-weight:700;
         font-style:normal;
@@ -41,11 +42,12 @@ h1, #fullstack{
 }
 
 h2{
-        font-family: 'Open Sans Condensed', sans-serif;
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
         font-size-adjust:0.531;
         font-weight:500;
         font-style:normal;
 }
+
 {
     box-sizing: border-box;
 }
@@ -85,7 +87,7 @@ h2{
 }
 
 #intro{
-        background:url("./images/congruent_outline.png") 100% 0 no-repeat fixed;
+        background:url("./images/congruent_outline.png") 100% 0 repeat fixed;
 	background-size: cover;
         color: white;
         height: 900px;
@@ -93,6 +95,19 @@ h2{
         padding: 0;
         width: 100%;
         clear: both;
+}
+
+#introTxt{
+        padding: 20px;
+        margin: 10px;
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
+        font-weight: bold;
+        text-align: center;
+}
+
+#introTxt_summary{
+        padding: 20px;
+        margin: 10px;
 }
 
 #intro_second{
@@ -132,29 +147,31 @@ h2{
         float: left;
         width: 100%;
         max-width: 650px;
-        padding: 40px;
-        margin: 0 0 20px;
-        border: 7px solid #ddd;
+        padding: 40px 20 20;
+        margin: 40px;
+        border: 4px solid #ddd;
 }
 #hello{
         margin-left: 10px;
+        text-align: center;
 }
 #Adri{
         padding: 10px;
         padding-bottom: 30px;
-        border-bottom: 3px solid #ddd;
+        border-bottom: 2px solid #ddd;
         line-height: 49px;
 }
 .sidebar {
+        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
         color: #f5e0d4;
         font-size: 20px;
         float: right;
         width: 90%;
         max-width: 330px;
-        margin-right: 40px;
+        margin: 40px;
         padding: 30px;
-        border: 7px solid #ddd;
-        clear: both;
+        border: 4px solid #ddd;
+       
 }
 
 #third{
