@@ -1,0 +1,288 @@
+body, html {
+    height: 100%;
+    background-image: url("./circles-and-roundabouts.png.png");
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+
+}
+.myclass {
+  background: background1, background2;
+}
+.parallax {
+    /* The image used  ./AdriEllipse.png*/
+    background-image: url("./AdrianneAK.png"), url("./background.png");
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center, center;
+    background-repeat: no-repeat, repeat;
+    background-size: none, cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image:url("./goldengate.jpeg");
+    opacity: .9;
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: none, cover;
+}
+
+
+.parallax3 {
+    /* The image used */
+    background-image:url("./matrix.jpg");
+    opacity: .8;
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: none, cover;
+}
+
+
+#Adrianne_txt{
+    text-align: center;
+}
+
+/*.container {
+    width: 100%;
+    max-width: 1180px;  was 960px
+    /*margin: 0 auto;
+    clear: both;
+
+}*/
+
+{
+    box-sizing: border-box;
+}
+/* general */
+
+
+h1,
+h2,
+h3,
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+p:last-child {
+	font-size: 20px;
+    margin-bottom: 0;
+}
+h1,
+h2,
+h3 {
+	font-family: 'PT Sans', sans-serif;
+	/*font-family: 'Open Sans Condensed', sans-serif;
+*/
+   /* font-family: Georgia, Times, "Times New Roman", serif;*/
+    font-weight: 700;
+    color: #4aaaa5;
+
+}
+h1 {
+    /*padding-bottom: 20px;*/
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+}
+h2,
+h3 {
+    font-size: 22px;
+}
+/* header */
+#masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+
+/* footer */
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #4aaaa5;
+}
+/* sidebar */
+.sidebar {
+	color: #f5e0d4;
+	font-size: 20px;
+    float: right;
+    width: 90%;
+    max-width: 330px;
+    margin-right: 40px;
+    padding: 30px;
+   /* margin-bottom: 20px;*/
+    border: 7px solid #ddd;
+    background-image: url("./background.png");
+  /*  border: 7px solid #ddd;*/
+}
+h3,
+/*.sidebar h2 {*/
+    /*padding-bottom: 20px;*/
+   /* margin-bottom: 15px;*/
+    /*line-height: 22px;*/
+   /* border-bottom: 2px solid #eee;*/
+/*}*/
+
+
+
+/* main */
+#main-container {
+    padding-top: 20px;
+    background-image: url("./background.png");
+
+}
+.techSkills-container{
+	padding-top: 20px;
+	background-image: url("./matrix.jpg");
+}
+
+.main-section {
+	color: #f5e0d4;
+	font-size: 20px;
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 40px;
+    margin: 0 0 20px;
+    background-image: url("./background.png");
+    border: 7px solid #ddd;
+}
+#hello{
+	margin-left: 10px;
+}
+#Adri{
+	padding: 10px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #ddd;
+	line-height: 49px;
+}
+.downloadImg{
+	padding-top: 50px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}
+.list{
+	background-color: #ddd;
+	padding: 2px;
+	margin: 10px;
+	opacity: .5;
+}
+#skillsList{
+	color: black;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#introTxt{
+	color: #fff;
+}
+textarea {
+    height: 200px;
+}
+
+@media screen and (max-width: 980px){
+    body{
+        background-color: #444;
+    }
+    #masthead{
+        margin: 0 auto;
+    }
+    .container{
+        margin: 0 auto;
+        max-width: 980px;
+    }
+    #main-container{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: #cccccc;
+    }
+
+    .sidebar{
+       /* clear: all;*/
+        width: 100%;
+        float: left;
+    }
+    .sidebar h2{
+        clear: both;
+        margin: auto;
+        max-width: 768px;
+    }
+
+    #masthead{
+        position: static;
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .container{
+        margin: 0 auto;
+        width: 550px;
+    }
+
+    #main-container{
+        padding: 0;
+
+}
+@media screen and (max-width: 640px){
+    body{
+        background-color: #dddddd;
+    }
+    .sidebar{
+        clear: both;
+        margin: 0 auto;
+        float: left;
+        max-width: 640px;
+        width: 100%;
+    }
+    #masthead{
+        position: static;
+        clear: both;
+        margin: 0 auto;
+        /*width: 640px;*/
+    }
+    .container{
+        margin: 0 auto;
+        /*width: 480px;*/
+    }
+    #main-container{
+        margin: 0 auto;
+        width: 450px;
+    }
+    #logo {
+        clear: both;
+        width: 100%;
+        height: 55px;
+        margin: auto;
+        overflow: auto;
+        color:#fff;
+        line-height: 50px;
+        text-align: center;
+    }
+
+
+    }
+}
