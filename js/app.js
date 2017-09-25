@@ -10,4 +10,6 @@ $(document).ready(function(){
 	$('.bg').parallax("50%", 0.4);
 	$('#third').parallax("50%", 0.3);
 
+	$( ".inner" ).append( "<p>Test</p>" );
+
 })
