@@ -44,14 +44,6 @@ h1, #fullstack{
         font-family: 'PT Sans', sans-serif;
 }
 
-#techlist{
-        margin: 0 40px;
-       /* border-bottom: 3px solid #ddd;*/
-        font-size: 27px;
-        line-height: 49px;
-        font-family: 'PT Sans', sans-serif;
-}
-
 h2{
     font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
     font-size-adjust:0.531;
@@ -60,28 +52,26 @@ h2{
 h3, #techtitles{
     border-bottom: 5px;
     line-height: 2px;
-    margin-top: 100px;
-  /*  text-align: center;*/
+    margin-top: 30px;
     font-size: 25px;
     font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-    padding: 40px;
+    padding: 10px;
 }
 li{ list-style-type: none;
     padding: 7px;
-   /* text-align: center;*/
     font-size: 25px;
     font-weight: bold;
 }
 
-/*.container1{
+.container1{
  margin: 0 auto;
-}*/
-/*.container{*/
-    /*text-align: center;*/
-   /* position: center;
+}
+.container{
+ /*   /*text-align: center;*/
+    position: center;
     padding: 30px 0 0;
 
-}*/
+}
 #links{
     /*float: right;*/
     margin-left: 40px;
@@ -208,6 +198,7 @@ li{ list-style-type: none;
     padding: 50px;
 }
 #technologies{
+        font-family: 'Merriweather', serif;
         color: #fff;
         background:url("./images/desertsky.jpeg")50% 0 no-repeat;
         height: 450px;
@@ -218,16 +209,19 @@ li{ list-style-type: none;
 
 #technologyList1{
     max-width: 100%;
-    padding: 30px;
-    margin: 10px;
+    padding: 25px;
+    margin: 40px;
     position: absolute, center;
     border: 1px solid #000;
     border-radius: 2px;
     background:url("./images/matrix.jpg")50% 0 no-repeat fixed;
-
 }
-#listfont{
-    font-size: 50px;
+#techlist{
+        font-family: 'Merriweather', serif;
+        margin: 0 40px;
+        font-size: 27px;
+        line-height: 49px;
+        font-family: 'PT Sans', sans-serif;
 }
 
 #portfoText{
@@ -251,16 +245,6 @@ li{ list-style-type: none;
         /*padding: 20px;*/
 }
 
-/*#giffys{
-        text-align: center;
-        padding: 20px;
-}
-
-#train{
-        text-align: center;
-        padding: 20px;
-        margin-left: 30px;
-}*/
 #contactme{
         background: url("./images/SFCity.jpeg") 50% 0 no-repeat fixed;
         background-size: cover;
