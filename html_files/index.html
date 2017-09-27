@@ -9,78 +9,97 @@
    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Merriweather|Pathway+Gothic+One" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
       <title>Adrianne FullStack Engr</title>
    </head>
    <body>
       <!-- Parallax Page, Landing -->
       <section id="preamble">
-         <div class="story">
-           <div class="container">
-               <div class="row">
+           <div class="container1">
+              <div class="row">
                   <div class="myclass col-md-6"></div>
                   <div class="col-md-6">
-               <h1 id="fullstack"><span class="glyphicon glyphicon-equalizer"></span> Full-Stack Software Engineer</h1></div>
-              </div>
+                    <h1 id="fullstack"><span class="glyphicon glyphicon-equalizer"></span> Full-Stack Software Engineer</h1>
+                  </div>
               </div>
 
+              <div class="row">
+               <div class="col-md-6"></div>
+                <div class="col-md-6">
+                   <div id="links">
+                     <a href="#intro1">Intro </a> |
+                     <a href="#technologies"> Technologies </a> |
+                     <a href="#portfolio"> Portfolio </a> |
+                     <a href="#contactme"> Contact Me </a> 
+                  </div>
+                </div>
+              </div>
+              
+              <div class="story"> 
                <div class="row">
-                  <div class="banner col-md-12">
+                  <div class="  col-md-12">
+                    <div class="banner">
                      <text><center>Adrianne Kelly</center></text>
-                      <div id="SFBay">SF BAY AREA</div>
-                      <div id="skroll"><center><a href="#intro">Scroll down to learn more<br>
+                     <!--  <div id="SFBay">SF BAY AREA</div> -->
+                      <div class="main" id="skroll"><center><a href="#intro1">Scroll down to learn more<br>
                       <span class="glyphicon glyphicon-triangle-bottom"></span></a></br></div>
+                    </div>
                   </div>
                </div>
             </div>
+            </div>
          </div>
-      </div>
       </section>
       <!--Parallax Page, Introduction-->
-      <section id="intro">
+      <div class="main" id="intro1">
+      <section class="intro">
       <div class="container">
          <section class="main-section">
             <div class ="row">
-              <div class="col-md-6">
+              <div class="col-md-6" id="pic">
             
                 <div class="main-summary">
                 <div id="hello">
                       <h2>Hey there, I am Adrianne. </h2></div>
 
                   <h3 class="introTxt"> I’m a mechanical engineer turned full-stack software engineer who is inspired to focus on educating the disenfranchised. </h3>
-              </div>
-                  <center><img src="../style/images/Adri_in_class.png" height=350px id="Adri" /></center>
-
-                  <div class="introTxt">
-                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam ea perspiciatis hic."
-                  <br> - Adrianne
+                </div>
+                  <div id="Adri"><center><img src="../style/images/Adri_in_class.png" height=300px /></center>
                   </div>
 
-                </div>
-                  
-                  <!-- <div id="hello">
-                      <h2>Hey there, I am Adrianne. </h2></div>
+                  <div class="introTxt" id="quote">
+                  "Success is to be measured not so much by the position that one has reached in life as by the obstacles which he has overcome."
+                  <br> - Booker T. Washington
+                  </div>
 
-                  <h3 class="introTxt"> I’m a mechanical engineer turned full-stack software engineer who is inspired to focus on educating the disenfranchised. </h3>
-              </div> -->
+              </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6" id="summary">
                 <div class ="introTxt_summary">
-                  <h3><center><span class="glyphicon glyphicon-fire"></center></span>
+                  <h3><center><span class="glyphicon glyphicon-leaf"></center></span>
                   <center>About me</center></h3>
-                  I'm a 13 year veteran in the field of engineering with a BS in Mechanical Engineering at San Jose State University, as well as a recent graduate of the UC Berkeley coding bootcamp. My overall emphasis involves building software applications that highlight particular concepts such as database model development, web crawlers and APIs.</center>
+                  A 13-year engineering veteran with a <span style="color: #FFFF00">BS in Mechanical Engineering</span> at San Jose State University. Also a recent graduate of the <span style="color: #FFFF00">UC Berkeley coding bootcamp.</span> My overall emphasis involves building software applications that highlight particular concepts such as <span style="color: #FFFF00">database model development, web crawlers</span> and <span style="color: #FFFF00">APIs.</span></center>
                 </div>
 
                 <div class ="introTxt_summary">
-                  <h3><center><span class="glyphicon glyphicon-tree-deciduous"></span><center>The Stack</h3>
-                  I work primarily work in <a href="https://www.quora.com/topic/MERN-Stack" target="#">MERN</a> stack. And use <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a> to architect the code structure. 
+                  <h3><center><span class="glyphicon glyphicon-tasks"></span><center>The Stack</h3>
+                  I work primarily work in the <span style="color: #FFFF00"><a href="https://www.quora.com/topic/MERN-Stack" target="#"><u>MERN</u></a></span> stack. And use <span style="color: #FFFF00"><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"><u>MVC</u></a></span> to architect the code structure. 
                 </div>
 
                 <div class ="introTxt_summary">
                      <h3><center><span class="glyphicon glyphicon-fire"></center></span>
                      <center>Responsibility to Empower</h3>
-                     It is important that we align our goals with a special purpose in mind, and I will always strive to help others educate themselves for self-betterment. That is why I believe it crucial that we engineers dedicate a portion of our lives to build apps that empower others.      
+                     It is important that we align our goals with a special purpose in mind, and I will always strive to help others educate themselves for self-betterment. That is why I believe it crucial that we engineers dedicate a portion of our time to build apps that empower others.      
                     </p></center>
                 </div>
+              </div>
+              </div>
+
+                 <div class="main" id="skroll"><center><a href="#technologies">Technologies<br>
+                      <span class="glyphicon glyphicon-triangle-bottom"></span></a></br></div>
                   
             </div>
           </div>
@@ -88,75 +107,180 @@
       </section>
       </div>
       </section>
+      </div>
       <!--Parallax Page, Technologies-->
-        <section id="third">
+       <div class="main" id="intro1">
+        <section id="technologies">
         <div class="container">
-          <div class="story">
-              <div class="float-left">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum ratione assumenda nostrum ut numquam sequi, at similique voluptatum excepturi dolor necessitatibus ea enim recusandae perferendis hic consequatur officia a placeat.
-              </div>
+           <div class="row">
+            <div class="col-md-6">
+              <h1 id="techlist"><span class="glyphicon glyphicon-cog"></span> Technologies</h1>
+            </div>
+             <div class="col-md-6"></div>
           </div>
 
-              <div class="techs">
-                 <h2>Technologies</h2>
-                    <div class="container">
-                      <div class ="row">
-                        <div class="col-md-3">
-                          <h3> Languages/Methodologies </h3>
-                            <ul>
-                              <li> Javascript/jQuery </li>
-                              <li> HTML5 </li>
-                              <li> CSS </li>
-                              <li> React </li>
-                              <li> Node.js </li>
-                              <li> AJAX </li>
-                              <li> REST </li>
-                              <li> Bootstrap </li>
-                            </ul>
-                        </div>
-                        
-                        <div class="col-md-3">
-                          <h3>Databases</h3>
-                            <ul>
-                              <li> MySQL </li>
-                              <li> MongoDB </li>
-                              <li> Firebase </li>
-                            </ul>
-                        </div> 
+          <!--Start List of Technologies -->
+      <div class="container">
+        <div id="technologyList1"></div>
+      </div>
 
-                        <div class="col-md-3">
-                          <h3>Testing Frameworks</h3>
-                            <ul>
-                              <li> Mocha.js </li>
-                              <li> Chai.js </li>
-                              <li> Nightmare.js </li>
-                            </ul> 
-                        </div>
+    <div class="container">
+      <div class="row">
+      <div class="col-md-12">
+        <div class="col-md-3">
+          <!-- <div class="techCatagories"> -->
+            <h3 id="techtitles"><u>Languages/Methodologies:</u></h3>
+            <ul id="listfont">
+              <li> Javascript/jQuery </li>
+              <li> HTML5 </li>
+              <li> CSS </li>
+              <li> React </li>
+              <li> Node.js </li>
+              <li> AJAX </li>
+              <li> REST </li>
+              <li> Bootstrap </li>
+            </ul>
+        </div>
 
-                        <div class="col-md-3">
-                          <h3>Software Tools/Utilities</h3>
-                            <ul>
-                              <li> Webstorm </li>
-                              <li> MySQL Workbench </li>
-                              <li> Sequel Pro </li>
-                              <li> Postman </li>
-                              <li> Robo 3T </li>
-                            </ul>   
-                        </div>
-                    </div>
+        <!--Start Column 2 -->
+        <div class="col-md-3">
+           <h3 id="techtitles"><u>Software Tools/Utils:</u></h3>
+            <ul>
+              <li> Webstorm </li>
+              <li> MySQL Workbench </li>
+              <li> Sequel Pro </li>
+              <li> Postman </li>
+              <li> Robo 3T </li>
+            </ul>   
+          </div>
+
+           <div class="col-md-3">
+              <h3 id="techtitles"><u>Databases:</u></h3>
+              <ul>
+                <li> MySQL </li>
+                <li> MongoDB </li>
+                <li> Firebase </li>
+              </ul>
+          </div>
+
+        <!--Start Column 2 -->
+          <div class="col-md-3">  
+             <h3 id="techtitles"><u>Testing Frameworks:</u></h3>
+                <ul>
+                  <li> Mocha.js </li>
+                  <li> Chai.js </li>
+                  <li> Nightmare.js </li>
+                </ul>  
+          </div>
+        </div>
+      </div>
+      
+    </div>      
+    </section>
+ 
+      </div>
+  <!--Parallax Page, Portfolio-->
+    <section id="portfolio">
+      <div class="container">
+         <div class="row">
+          <!-- <div class="row" id="portfoText"> -->
+              <div class="col-md-6">
+              <h1 id="techlist"><span class="glyphicon glyphicon-cog"></span> Portfolio</h1>
               </div>
-           </div>
-         <!--.story-->
-      </div>
-      </div>
+              <div class="col-md-6"></div>
+          </div>
+
+          <!-- Start Project Images -->
+          <!--Project 1 -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3 id="projTitles"><a href="https://project-budgetapp.github.io/budgetapp/" target="#">HypoInvest</a></h3>
+
+              <center><a href="https://project-budgetapp.github.io/budgetapp/"><img src="../style/images/HypoInvest.png" height=225px target="#"/></a></center>
+              <br> About HypoInvest: Uses Firebase, JQuery, HTML/CSS, Bootstrap animate.css, newsAPI, and the quandlAPI allow a user to hypothetically invest in stock on the DOW30.
+            </div>
+
+            <div class="col-md-6">
+              <h3 id="projTitles"><a href="https://copperdime.github.io/giftastic/">YourGiffys</a></h3>
+
+              <center><a href="https://copperdime.github.io/giftastic/"><img src="../style/images/YourGiffys.png" height=225px target="#"/></a></center>
+              <br> About YourGiffys: Uses JQuery, HTML/CSS, AJAX, and the giffyAPI to create an entertainment app that returns gifs for a user requested topic.
+            </div>
+            </div>
+
+            <div class="row" id="portfoText">
+              <div class="col-md-6">
+                <h3 id="projTitles"><a href="https://copperdime.github.io/TrainScheduler/" target="#">Train Scheduler</a></h3>
+
+                <center><a href="https://copperdime.github.io/TrainScheduler/"><img src="../style/images/TrainScheduler.png" height=250px target="#"/></a></center>
+                <br> About Train Scheduler: Uses Firebase, JQuery, HTML/CSS, and Bootstrap to simulate a form that captures user input data and appends the values on the page. These values remain persistent after posting to the database.
+              </div>
+
+              <div class="col-md-6">
+                <h3 id="projTitles"><a href="https://helloworldsf.herokuapp.com/" target="#">Hello World</a></h3>
+
+                <center><a href="https://helloworldsf.herokuapp.com/"><img src="../style/images/helloworld.png" height=250px target="#"/></a></center>
+                <br> About Helloworld: Uses MySQL, Sequelize, JQuery, HTML/CSS, modals, and Bootstrap to connect prospective software boot camp students with alums for networking.
+              </div>
+              </div>
+          </div>
+        </div>
       </section>
-      <!--#third-->
-       <div id="fifth">
-         <div class="story">
-            <div class="float-right">
-               <h2>Why is Parallax so Awesome?</h2>
+   <!--Parallax Page, ContactMe-->
+       <div id="contactme">
+         <div class="float-left">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="col-md-6">
+                <h3 id="techtitles">Would love to hear from you!
+                <p>On GitHub:</h3>
+                <a href="https://github.com/copperdime"><img src="../style/images/github-128.png" class="social" alt="GitHub" /></a>
+        
+              <div class="col-md-6">
+                <h3 id="techtitles">On LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/adrianne-kelly-a1a15066/"><img src="../style/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+            </div>
+          </div>
+
+            <div class="row">
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <h3 id="techtitles">On StackOverflow:</h3>
+                  <a href="http://stackoverflow.com/users/6322681/copperdime"><img src="../style/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+                <div class="col-md-6">
+                  
+              </div>
+             </div>
+          
+          <div class="row">
+              <div class="col-md-8">
+                <div class="col-md-6">
+                  <h3 id="techtitles">Or email me: mrs.kelly@gmail.com</h3>   
+                <div class="col-md-6"></div>
+
+                         
+                   </div>
+              </div>
+</div>
+ <div class="col-md-4">
+ </div>
+
+            <div class="col-md-4">
+                &copy; Adrianne Kelly 2017
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      
+
+            <!-- <div class="float-right">
+               <h2>Contact me</h2>
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio.</p> 
             </div>
+ -->
+               
          </div>
          <!--.story-->
       </div>

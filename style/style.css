@@ -4,12 +4,18 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{   /*background-image: url("./image/background.png");*/
+body, html{   /*background-image: url("./image/background.png");*/
         height: 900px;
         margin: 0;
-        min-width: 980px;
+        /*min-width: 980px;*/
         padding: 0;
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
+}
+.main{
+    height: 100%;
+}
+section{
+    min-height: 100%;
 }
 
 p{
@@ -28,35 +34,58 @@ p, ul{
         font-style:normal;
 }
 
-img{
-        border: 0;
+
+
+h1, #fullstack{
+        margin: 0 40px;
+        border-bottom: 3px solid #ddd;
+        font-size: 27px;
+        line-height: 49px;
+        font-family: 'PT Sans', sans-serif;
 }
 
-h1, #pixels{
-        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-        font-size-adjust:0.40;
-        font-weight:700;
-        font-style:normal;
-}
-h1, #fullstack{
-        border-bottom: 3px solid #ddd;
-        font-size: 30px;
+#techlist{
+        margin: 0 40px;
+       /* border-bottom: 3px solid #ddd;*/
+        font-size: 27px;
         line-height: 49px;
         font-family: 'PT Sans', sans-serif;
 }
 
 h2{
-        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-        font-size-adjust:0.531;
-        font-weight:500;
+    font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
+    font-size-adjust:0.531;
+    font-weight:500;
+}
+h3, #techtitles{
+    border-bottom: 5px;
+    line-height: 2px;
+    margin-top: 100px;
+  /*  text-align: center;*/
+    font-size: 25px;
+    font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
+    padding: 40px;
+}
+li{ list-style-type: none;
+    padding: 7px;
+   /* text-align: center;*/
+    font-size: 25px;
+    font-weight: bold;
 }
 
-{
-    box-sizing: border-box;
-}
-.container{
-    position: absolute, center;
+/*.container1{
+ margin: 0 auto;
+}*/
+/*.container{*/
+    /*text-align: center;*/
+   /* position: center;
+    padding: 30px 0 0;
 
+}*/
+#links{
+    /*float: right;*/
+    margin-left: 40px;
+    padding:5px;
 }
 
 #header h1, #pixels{
@@ -79,27 +108,18 @@ h2{
         text-align: center;
 }
 
-#nav{
-        list-style: none;
-        position: fixed;
-        right: 20px;
-}
 
-#nav li{
-        margin: 0 0 15px 0;     
-}
-
-#header, #intro, #second{
+#intro, {
         width: 100%;
 }
 
 #preamble{
-        background:url("./images/goldengate.jpeg") 50% 0 no-repeat fixed;
-        opacity: .8;
+        margin: 0 auto;
+        background:url("./images/goldengate.jpeg") 100% 0 no-repeat;
+        overflow: auto;
         background-size: cover;
         color: white;
         height: 800px;
-        margin: 0 auto;
         padding: 0;
         width: 100%;
 }
@@ -107,42 +127,42 @@ h2{
 .banner{
         text-align: center;
         margin: 200px auto;
-        width: 30%;
         font-weight: bold;
-        /*color: red;*/
+        padding: 0 20px;
 }
 #SFBay{
-    background: #000;
-    padding: 10px;
+  /*  background:#1b1b1b;*/
+    padding: 5px;
     text-align:center;
     font-size: 25px;
     color: #fff;
     font-weight: bold;
 }
 #skroll{
-   
+    font-size: 15px;
     position: relative;
     text-align:center;
-    bottom:-100px;
+    bottom:-200px;
     color: #fff;
+    padding-bottom: 20px;
 
 
 }
 
-#intro{
+.intro{
         background:#1b1b1b;
         background-size: 100px 100px;
         color: white;
-        height: 900px;
+        max-height: 700px;
         margin: 0 auto;
         padding: 0;
         width: 100%;
-        overflow: hidden;
+        overflow: auto;
         clear: both;
 }
 
 .introTxt{
-        padding: 20px;
+        padding: 10px;
         margin: 10px;
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
         font-weight: bold;
@@ -151,74 +171,99 @@ h2{
 
 .introTxt_summary{
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-        padding: 20px;
-        margin: 20px;
+    /*    margin: 20px;*/
 }
 
-/*#second{
-        background: url("./images/goldengate.jpeg") 50% 0 no-repeat fixed;
-		background-size: cover;
-        color: white;
-        height: 900px;
-        margin: 0 auto;
-        overflow: hidden;
-        padding: 0;
-        width: 100%;
-}*/
-
-/*#second .bg{
-        background: url("./images/SFCity.jpeg") 50% 0 no-repeat fixed;
-        height: 900px;
-        margin: 0 auto;
-        padding: 0;
-        position: fixed;*/
-        /*z-index: 200;*/
-    /*    max-width: 1900px;
-	width: 100%;
-        overflow: hidden;
-}*/
 .main-summary{
         margin-top: 50px;
 }
 .main-section {
-        position: relative;
+        position: relative, center;
         color: #f5e0d4;
-        font-size: 20px;
- /*       float: left;*/
-     /*   width: 100%;
-        max-width: 850px;*/
-        padding: 40px 20 20;
-        margin: 50px;
-        border: 4px solid #ddd;
+        font-size: 21px;
+        margin: 30px;
 }
+
 #hello{
+        color: #4063d5;
+        margin: 10px;
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-        margin-left: 10px;
+        font-weight: bold;
         text-align: center;
-
 }
+
 #Adri{
-        padding: 10px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         border-bottom: 2px solid #ddd;
-        line-height: 49px;
+        line-height: 30px;
+        text-align: center;
+        margin: 20px;
 }
-.sidebar {
-        font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-        color: #f5e0d4;
-        font-size: 20px;
-        float: right;
-        width: 90%;
-        max-width: 360px;
-        margin: 40px;
-        padding: 30px;
-        border: 4px solid #ddd;
-       
+#quote{
+        font-size: 18px;
 }
 
-#fifth{
+.techs{ 
+    margin: 0 auto;
+    padding: 50px;
+}
+#technologies{
+        color: #fff;
+        background:url("./images/desertsky.jpeg")50% 0 no-repeat;
+        height: 450px;
+        margin: 0 auto;
+        padding: 40px 0 0 0;
+        overflow: auto;
+}
+
+#technologyList1{
+    max-width: 100%;
+    padding: 30px;
+    margin: 10px;
+    position: absolute, center;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background:url("./images/matrix.jpg")50% 0 no-repeat fixed;
+
+}
+#listfont{
+    font-size: 50px;
+}
+
+#portfoText{
+    padding: 20px;
+}
+#portfolio{
+        margin: 0 auto;
+        background:#1b1b1b fixed;
+        /*background:url("./images/laptop.jpeg") 100% 0 no-repeat fixed;*/
+        overflow: auto;
+        background-size: cover;
+        color: #fff;
+        height: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+        overflow: auto;
+}
+#projTitles{
+        text-align: center;
+        /*padding: 20px;*/
+}
+
+/*#giffys{
+        text-align: center;
+        padding: 20px;
+}
+
+#train{
+        text-align: center;
+        padding: 20px;
+        margin-left: 30px;
+}*/
+#contactme{
         background: url("./images/SFCity.jpeg") 50% 0 no-repeat fixed;
-		background-size: cover;
+        background-size: cover;
         color: black;
         height: 900px;
         padding: 100px 0 0 0;   
@@ -226,22 +271,12 @@ h2{
         overflow: hidden;
         padding: 0;
 }
-
-.techs{
-    padding: 50px;
-}
-#third{
-        background: #ccc;
-        height: 600px;
-        margin: 0 auto;
-        padding: 40px 0 0 0;
-}
-
 .story{
+
         margin: 0 auto;
-        min-width: 980px;
-        width: 980px;
-        clear: all;
+/*        min-width: 980px;*/
+        max-width: 980px;
+     /*   clear: all;*/
 }
 
 .story .float-left, .story .float-right{
