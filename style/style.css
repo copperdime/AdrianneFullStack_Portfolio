@@ -4,18 +4,18 @@
 @charset "utf-8";
 /* CSS Document */
 
-body, html{   /*background-image: url("./image/background.png");*/
+body, html{  
         height: 900px;
         margin: 0;
-        /*min-width: 980px;*/
         padding: 0;
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
 }
 .main{
-    height: 100%;
+        height: 100%;
 }
+
 section{
-    min-height: 100%;
+        min-height: 100%;
 }
 
 p{
@@ -37,6 +37,7 @@ p, ul{
 
 
 h1, #fullstack{
+        font-weight: bold;
         margin: 0 40px;
         border-bottom: 3px solid #ddd;
         font-size: 27px;
@@ -98,46 +99,50 @@ li{ list-style-type: none;
         text-align: center;
 }
 
-
-#intro, {
-        width: 100%;
-}
-
 #preamble{
         margin: 0 auto;
         background:url("./images/goldengate.jpeg") 100% 0 no-repeat;
-        overflow: auto;
+        overflow: hidden;
         background-size: cover;
         color: white;
-        height: 800px;
+        height:700px;
         padding: 0;
         width: 100%;
+        max-height:700px;
 }
 
 .banner{
+
+    /*    font-family: 'Armata';*/
         text-align: center;
         margin: 200px auto;
         font-weight: bold;
-        padding: 0 20px;
+        padding: 20px 20px;
 }
 #SFBay{
-  /*  background:#1b1b1b;*/
     padding: 5px;
     text-align:center;
     font-size: 25px;
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
 }
 #skroll{
-    font-size: 15px;
+    font-size: 25px;
     position: relative;
     text-align:center;
     bottom:-200px;
     color: #fff;
     padding-bottom: 20px;
-
-
 }
+#skrolltoTech{
+    font-size: 25px;
+    position: relative;
+    text-align:center;
+    bottom:-100px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
 
 .intro{
         background:#1b1b1b;
@@ -214,7 +219,8 @@ li{ list-style-type: none;
     position: absolute, center;
     border: 1px solid #000;
     border-radius: 2px;
-    background:url("./images/matrix.jpg")50% 0 no-repeat fixed;
+    background:url("./images/matrix.jpg")50% no-repeat fixed;
+    overflow: auto;
 }
 #techlist{
         font-family: 'Merriweather', serif;
@@ -249,18 +255,26 @@ li{ list-style-type: none;
         background: url("./images/SFCity.jpeg") 50% 0 no-repeat fixed;
         background-size: cover;
         color: black;
-        height: 900px;
+        height: 750px;
         padding: 100px 0 0 0;   
         width: 100%;
         overflow: hidden;
         padding: 0;
 }
+#contactLinks{
+    font-size: 15px;
+}
+#email{
+    font-weight: bold;
+    font-size: 20px;
+}
+img{
+    padding: 4px;
+}
 .story{
 
         margin: 0 auto;
-/*        min-width: 980px;*/
         max-width: 980px;
-     /*   clear: all;*/
 }
 
 .story .float-left, .story .float-right{
@@ -268,3 +282,22 @@ li{ list-style-type: none;
         position: relative;
         width: 350px;   
 }
+
+/*@media screen and (max-width: 1200px){
+    body, html {
+        height: 900px;
+}
+
+@media screen and (max-width: 992px){
+    body, html {
+        height: 1200px;
+}
+
+@media screen and (max-width: 768px){
+     body, html {
+        height: 1650px;
+}
+@media screen and (max-width: 640px){
+     body, html {
+        height: 1650px;
+}*/
