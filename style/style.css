@@ -68,7 +68,6 @@ li{ list-style-type: none;
  margin: 0 auto;
 }
 .container{
- /*   /*text-align: center;*/
     position: center;
     padding: 30px 0 0;
 
@@ -113,7 +112,6 @@ li{ list-style-type: none;
 
 .banner{
 
-    /*    font-family: 'Armata';*/
         text-align: center;
         margin: 200px auto;
         font-weight: bold;
@@ -166,7 +164,6 @@ li{ list-style-type: none;
 
 .introTxt_summary{
         font-family: 'Pathway Gothic One', 'Open Sans Condensed', sans-serif;
-    /*    margin: 20px;*/
 }
 
 .main-summary{
@@ -236,7 +233,6 @@ li{ list-style-type: none;
 #portfolio{
         margin: 0 auto;
         background:#1b1b1b fixed;
-        /*background:url("./images/laptop.jpeg") 100% 0 no-repeat fixed;*/
         overflow: auto;
         background-size: cover;
         color: #fff;
@@ -248,7 +244,6 @@ li{ list-style-type: none;
 }
 #projTitles{
         text-align: center;
-        /*padding: 20px;*/
 }
 
 #contactme{
@@ -269,7 +264,7 @@ li{ list-style-type: none;
     font-size: 20px;
 }
 img{
-    padding: 4px;
+    padding: 8px;
 }
 .story{
 

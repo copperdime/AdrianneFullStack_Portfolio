@@ -6,9 +6,7 @@
    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|PT+Sans" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Merriweather|Pathway+Gothic+One" rel="stylesheet">
-   <link href="../style/css/smoothness/jquery-ui-1.9.0.custom.css" rel="stylesheet">
-   <script language="javascript" type="text/javascript" src="jquery-1.8.2.js"></script>
-   <!-- <script src="../js/jquery-ui-1.1.custom.js"></script> -->
+   <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -285,52 +283,57 @@
           <div class="row">
             <div class="col-md-4">
               <h3 id="contactLinks">On StackOverflow:</h3>
-                  <a href="http://stackoverflow.com/users/6322681/copperdime"><img src="../style/images/stackoverflow-128.png" height="122px" class="social" alt="Stack Overflow" /></a>
+                  <a href="http://stackoverflow.com/users/6322681/copperdime"><img src="../style/images/stackoverflow-128.png" height="128px" class="social" alt="Stack Overflow" /></a>
               </div>
           
 
             <div class="col-md-4">
               <h3 id="contactLinks">Or email Me:</h3>
-                <div id="myModal">
-                     <a href="http://stackoverflow.com/users/6322681/copperdime"><img src="../style/images/googlelogo.png" height="122px" class="social" alt="Stack Overflow" /></a>
+                <!-- trigger modal -->
+                <img src="../style/images/googlelogo.png" height="128px" class="social" alt="Stack Overflow" class="myModal" data-toggle="modal" data-target="#emailme" />
+              
+                  <!-- Modal -->
+                  <div class="modal fade" id="emailme" tabindex="-1" role="dialog" aria-labelledby="emailmeLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="emailmeLabel">My Email</h4>
+                        </div>
+                        <div class="modal-body">
+                          mrs.kelly@gmail.com
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="" onclick='' data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
               </div>
-              </div>
-           
+           <!--    </div> -->
+          
            <div class="col-md-8">
               </div>
             </div>
           </div>
 
-            <div class="float-right">
-                &copy; Adrianne Kelly 2017
-              </div>
-            </div>
+         <!--    <div class="float-right"> -->
+        <!--  <div class="container"> -->
+         <div class="float-right">
+           <div class="row">
+            <div class="col-md-6"></div>
+             <div class="col-md-6">
+              </h5>  &copy; Adrianne Kelly 2017</h5>
+             </div>
           </div>
-        </div>
-        </div>
+          </div>
+          </div>
+
+              <!--   &copy; Adrianne Kelly 2017 -->
+           
+         
         
-        <!-- Button trigger modal -->
-<button type="button" class="myModal" data-toggle="modal" data-target="#emailme">
-  Email Me
-</button>
- 
-<!-- Modal -->
-<div class="modal fade" id="emailme" tabindex="-1" role="dialog" aria-labelledby="emailmeLabel" aria-hidden="true">
-  <div class="modal-dialog modal-sm">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="emailmeLabel">My Email</h4>
-      </div>
-      <div class="modal-body">
-        email addy
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="" onclick='' data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
                
       </div>
         
